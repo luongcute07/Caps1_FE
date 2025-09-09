@@ -14,7 +14,14 @@ const routes = [
         component: () => import('../components/admin/sanpham/sanpham.vue')
       }
     ]
-  }
+  },
+  {
+    path: "/admin/lich-hen",
+    component: () => import("../components/Admin/lichhen/index.vue"),
+    meta: {
+      layout: "admin",
+    },
+  },
 ]
 
 const router = createRouter({
