@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 {
   "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
 }
+=======
+{
+  "recommendations": ["Vue.volar"]
+}
+>>>>>>> d22e606 (code homeview)

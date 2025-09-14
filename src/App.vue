@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
     <component :is="layout">
       <router-view></router-view>
@@ -16,3 +17,18 @@ export default {
 </script>
 <style>
 </style>
+=======
+<template>
+  <div>
+    <Navbar />
+    <router-view />
+    <Footer />
+  </div>
+</template>
+
+<script setup>
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
+</script>
+>>>>>>> d22e606 (code homeview)
